@@ -2,7 +2,7 @@
 FROM --platform=amd64 nvcr.io/nvidia/cuda:12.1.0-devel-ubuntu22.04 as base
 
 # Set an environment variable
-ENV HF_TOKEN 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
+ENV HF_TOKEN
 
 # Install Python and other dependencies
 RUN apt-get update && apt-get install -y \
